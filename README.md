@@ -1,5 +1,11 @@
 # serial-comm-py-lib
 A python library to interface with micro-controllers over serial commands
+## Installation 
+If using UV run the following 
+
+```
+uv add "serial-comm-py-lib @ git+ssh://git@github.com/Adithya-Srinath/serial-comm-py-lib.git"
+```
 
 ## Usage Example
 ```python
