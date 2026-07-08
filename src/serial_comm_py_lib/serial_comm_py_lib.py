@@ -70,3 +70,6 @@ class SerialComm:
             return(received_message.split(self.delimiter))
         else:
             return False
+    
+    def close(self):
+        self.ser.close()
